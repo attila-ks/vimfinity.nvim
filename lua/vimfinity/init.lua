@@ -1,7 +1,7 @@
+local executable_path = require("vimfinity.executable_path")
+
 local M = {}
 
-M.executable_path = function()
-  return require("vimfinity.executable_path")
-end
+M.find_executable_path = executable_path.find
 
 return M
